@@ -13,7 +13,7 @@
 
   <groupId>com.reeb</groupId>
   <artifactId>estandar-ia-mini</artifactId>
-  <version>1.0.0</version>
+  <version>1.0.1</version>
   <name>estandar-ia-mini</name>
   <description>Mini demo del estándar de trabajo (diplomatura IA BP4/UTN)</description>
 

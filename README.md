@@ -6,6 +6,29 @@ Aplica el estándar de ingeniería (base FSWITCH / Federico Acosta) y las práct
 
 **Autor:** Manuel Jesús Reeb
 
+## Qué cumple y en qué parte
+
+Mapa completo: [docs/CUMPLIMIENTO-ESTANDAR.md](docs/CUMPLIMIENTO-ESTANDAR.md).
+
+### Ingeniería (FSWITCH) — resumen
+
+| Cumple | Parte del proyecto |
+| --- | --- |
+| Capas separadas | `domain` · `application` · `infrastructure` · `presentation` |
+| DI por constructor | `CalcularTotalPedidoService`, `PedidoController`, `VipDescuentoPolicy` |
+| Contrato vs implementación | `DescuentoPolicy` → `VipDescuentoPolicy` |
+| Unit tests + Mockito | `PedidoTest`, `CalcularTotalPedidoServiceTest` (`mvn test`) |
+| Parámetros fuera del código | `application.properties` / `APP_DESCUENTO_VIP` / `.env.example` |
+| Logs sin datos sensibles | `PedidoController` |
+| SemVer + changelog | `pom.xml` + `CHANGELOG.md` |
+
+### Uso de IA (Parte B) — resumen
+
+| Cumple | Parte del proyecto |
+| --- | --- |
+| Contexto persistente del equipo/repo | `AGENTS.md` |
+| Límites, 4 capas del pedido, pasos, debug, review | `docs/COMO-USAR-IA.md` |
+
 ## Qué hace
 
 Calcula el total de un pedido con descuento VIP configurable.
@@ -66,7 +89,7 @@ Resumen:
 
 ## Versionado
 
-SemVer — ver [CHANGELOG.md](CHANGELOG.md). Versión actual: **1.0.0**.
+SemVer — ver [CHANGELOG.md](CHANGELOG.md). Versión actual: **1.0.1**.
 
 ## Licencia
 

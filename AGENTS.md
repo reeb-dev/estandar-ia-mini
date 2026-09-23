@@ -6,6 +6,8 @@ Este archivo es el contexto persistente del repo (recomendación clase 4 / plant
 
 Demo mínima de cálculo de total de pedido con descuento VIP, organizada por capas, para ilustrar el estándar de trabajo individual (ingeniería + uso de IA).
 
+Mapa de cumplimiento: [docs/CUMPLIMIENTO-ESTANDAR.md](docs/CUMPLIMIENTO-ESTANDAR.md).
+
 ## Stack
 
 - Java 21, Spring Boot 3.4, Maven
