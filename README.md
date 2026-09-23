@@ -2,7 +2,7 @@
 
 Mini proyecto de demostración para la **Diplomatura en IA aplicada al desarrollo (BP4 / UTN)**.
 
-Aplica el estándar de ingeniería (base FSWITCH / Federico Acosta) y las prácticas de uso de IA del entregable individual (Parte B).
+Aplica el estándar de ingeniería (base FSWITCH) y las prácticas de uso de IA del entregable individual (Parte B).
 
 **Autor:** Manuel Jesús Reeb
 
